@@ -32,13 +32,9 @@
         </div>
         <div class="about-details">
           <p>
-            Hackfest 2020 is the Developer Student Clubs’ flagship 
-            technology conference organized by students. This is 
-            a one-day event that aims to equip aspiring innovators 
-            with much-coveted technological insights to aid them 
-            in the process of shaping the future they wish to behold. 
-            In line with this, the event will be addressing 4 of the 
-            current hot trends in tech, namely:
+            HackFest 2020: Online is a 10-day event composed of online technical workshops, webinars, and a 48-hour hackathon proper where students can exercise the skills they learned by coming up with creative, digital solutions to a given problem through the use of technology. Experts from different technological fields will share their expertise, provide insight and impart sufficient technical knowledge, all geared towards preparing the participants for the hackathon. In the hackathon, teams will compete with one another by creating software applications that address the present-day plight of Filipinos across the country.
+            <br>
+            This competition is open to all college undergraduate students and senior high school students nationwide. Members of each time need not come from the same school or be the same age. Each team will consist of three to four participants, guided all-throughout the event by a team mentor assigned by the HackFest 2020: Online Event Committee.
           </p>
           <ul>
             <li><span>Web and Mobile Development</span></li>
@@ -49,7 +45,18 @@
         </div>
       </div>
     </div>
-
+    <div class="sponsors">
+      <h5>Sponsors</h5>
+      <div class="sponsor-child">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+      </div>
+    </div>
   </div>
 
 </template>
@@ -70,6 +77,7 @@ export default {
   width: 100%;
   background: url('../assets/grid.png');
   background-size: cover;
+  padding-bottom: 340px;
 }
 
 .hero-section {
@@ -205,6 +213,38 @@ export default {
   color: #000000;
 }
 
+.sponsors {
+  width: 100vw;
+  background-color: #FAFAFA;
+  height: 350px;
+}
+
+.sponsors h5 {
+  font-family: "Google Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.sponsor-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.sponsor-child img {
+  height: 160px;
+  width: 160px;
+  padding-right: 44px;
+}
+
+.sponsor-child img:last-child {
+  padding: 0;
+}
 
 @media screen and (max-width: 800px) {
   .hero-section {
