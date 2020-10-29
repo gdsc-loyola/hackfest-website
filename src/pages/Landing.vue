@@ -50,6 +50,21 @@
       </div>
     </div>
 
+    <div class="keynote">
+      <h1>Keynote Speaker</h1>
+      <div class="keynote-speakers">
+        <div class="keynote-speaker">
+          <img src="../assets/shad.png" alt="sirshad" />
+          <h5>Shad Roi de la Cruz</h5>
+          <p>DSC Manager, Google</p>
+        </div>
+        <div class="keynote-speaker">
+          <img src="../assets/frabau.png" alt="frabau" />
+          <h5>Francis Bautista</h5>
+          <p>Co-Founder, Indigo Research</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 </template>
@@ -70,6 +85,8 @@ export default {
   width: 100%;
   background: url('../assets/grid.png');
   background-size: cover;
+  padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .hero-section {
@@ -205,6 +222,57 @@ export default {
   color: #000000;
 }
 
+.keynote {
+  display: flex;
+  flex-direction: column;
+  background-color: #4285F4;
+}
+
+.keynote h1 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 31.25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 40px 0;
+}
+
+.keynote-speakers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.keynote-speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keynote-speaker img {
+  width: 200px;
+}
+
+.keynote-speaker h5 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 0 0;
+}
+
+.keynote-speaker p {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 5px 0 5px;
+}
+
 
 @media screen and (max-width: 800px) {
   .hero-section {
@@ -238,6 +306,36 @@ export default {
 
   .hero-img {
     align-self: flex-end;
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-header {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .about-header h5{
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .about-details {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .keynote-speakers {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .keynote-speaker {
+    margin-bottom: 70px;
   }
 }
 
@@ -245,6 +343,34 @@ export default {
   .hero-details {
     align-self: center;
     margin: 0;
+  }
+
+  .hero-details h1{
+    font-size: 20px;
+  }
+
+  .hero-date img, 
+  .hero-location img {
+    width: 20px;
+    margin-right: 15px;
+  }
+
+  .hero-date div p:nth-child(1), 
+  .hero-location div p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  .hero-date div p:nth-child(2), 
+  .hero-location div p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .about-details p {
+    font-size: 14px;
+  }
+
+  .about-details li span {
+    font-size: 14px;
   }
 }
 </style>
