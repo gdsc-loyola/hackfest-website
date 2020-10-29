@@ -51,7 +51,7 @@
     </div>
 
     <div class="keynote">
-      <h1>Keynote Speaker</h1>
+      <h1>"Keynote Speaker"</h1>
       <div class="keynote-speakers">
         <div class="keynote-speaker">
           <img src="../assets/shad.png" alt="sirshad" />
@@ -223,7 +223,7 @@ export default {
 }
 
 .keynote {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #4285F4;
 }
