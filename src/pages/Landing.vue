@@ -71,7 +71,6 @@
       <div class="talks">
 
         <div class="talk">
-          <div class="talk-spacer"></div>
           <div class="talk-details">
             <h5>Web and Mobile</h5>
             <p>
@@ -85,7 +84,6 @@
         </div>
 
         <div class="talk">
-          <div class="talk-spacer"></div>
           <div class="talk-details">
             <h5>Data Science and Cloud</h5>
             <p>
@@ -99,7 +97,6 @@
         </div>
 
         <div class="talk">
-          <div class="talk-spacer"></div>
           <div class="talk-details">
             <h5>Business in Tech</h5>
             <p>
@@ -113,7 +110,6 @@
         </div>
 
         <div class="talk">
-          <div class="talk-spacer"></div>
           <div class="talk-details">
             <h5>Women and Students in Tech</h5>
             <p>
@@ -135,7 +131,7 @@
         <div class="program-half">
           <div class="period">
             <div class="period-time">
-              <p>8:00</p>
+              <p>08:00</p>
               <p>AM</p>
             </div>
             <div class="period-details">
@@ -146,7 +142,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>9:00</p>
+              <p>09:00</p>
               <p>AM</p>
             </div>
             <div class="period-details">
@@ -157,7 +153,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>9:10</p>
+              <p>09:10</p>
               <p>AM</p>
             </div>
             <div class="period-details">
@@ -168,7 +164,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>9:40</p>
+              <p>09:40</p>
               <p>AM</p>
             </div>
             <div class="period-details">
@@ -179,7 +175,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>9:50</p>
+              <p>09:50</p>
               <p>AM</p>
             </div>
             <div class="period-details">
@@ -213,7 +209,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>1:00</p>
+              <p>01:00</p>
               <p>PM</p>
             </div>
             <div class="period-details">
@@ -224,7 +220,7 @@
           
           <div class="period">
             <div class="period-time">
-              <p>2:40</p>
+              <p>02:40</p>
               <p>PM</p>
             </div>
             <div class="period-details">
@@ -235,7 +231,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>4:10</p>
+              <p>04:10</p>
               <p>PM</p>
             </div>
             <div class="period-details">
@@ -246,7 +242,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>4:20</p>
+              <p>04:20</p>
               <p>PM</p>
             </div>
             <div class="period-details">
@@ -257,7 +253,7 @@
 
           <div class="period">
             <div class="period-time">
-              <p>4:50</p>
+              <p>04:50</p>
               <p>PM</p>
             </div>
             <div class="period-details">
@@ -523,12 +519,8 @@ export default {
   box-sizing: border-box;
 }
 
-.talk-spacer {
-  width: 40%;
-}
-
 .talk-details {
-  width: 60%;
+  width: 100%;
 }
 
 .talk-details h5 {
@@ -764,10 +756,6 @@ export default {
     margin: 10px;
     background-color: white;
     box-sizing: border-box;
-  }
-
-  .talk-spacer {
-    width: 100%;
   }
 
   .talk-details {
