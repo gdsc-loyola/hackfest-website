@@ -1,6 +1,5 @@
 <template>
   <div class="landing">
-
     <div class="hero-about-section">
       <div class="hero-section">
         <div class="hero-details">
@@ -123,7 +122,6 @@
     <div class="program-section">
       <h1>Program Flow</h1>
       <div class="program-details">
-
         <div class="program-half">
           <div class="period">
             <div class="period-time">
@@ -257,40 +255,25 @@
               <p></p>
             </div>
           </div>
-        </div>
-
+        </div>       
+       </div>
       </div>
+      <div class="sponsors" id="sponsor">
+            <h5>Sponsors</h5>
+            <div class="sponsor-child">
+              <img src="../assets/ANC_logo_reg_FINAL copy.png" alt="ANC">
+              <img src="../assets/PayMongo.png" alt="PayMongo Logo">
+              <img src="../assets/repl.it.svg" alt="Repl.it Logo">
+              <img src="../assets/INQUIRER-DOT-NET-transparent-bg.png" alt="Inquirer Logo">
+              <img src="../assets/FWD.png" alt="FWD Logo">
+              <img src="../assets/DO_Logo_vertical_black.svg" alt="Digital Ocean">
+          </div>
     </div>
 
 
   </div>
 
 </template>
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyBm3i5DJQ_fNBy_TIgrf3TtMkTmvzOR-Zc",
-    authDomain: "hackfest-2020.firebaseapp.com",
-    databaseURL: "https://hackfest-2020.firebaseio.com",
-    projectId: "hackfest-2020",
-    storageBucket: "hackfest-2020.appspot.com",
-    messagingSenderId: "658920405863",
-    appId: "1:658920405863:web:02b69259783a2740018dc2",
-    measurementId: "G-BTJFBSN1XQ"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 
 <script>
 export default {
@@ -650,6 +633,39 @@ export default {
   margin: 0;
 }
 
+/* SPONSOR SECTION */
+.sponsors {
+  background: #FAFAFA;
+  padding: 48px 120px;
+}
+
+.sponsors h5 {
+  font-family: 'Google Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.25px;
+  line-height: 110%;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 48px 0;
+}
+
+.sponsor-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.sponsor-child img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  object-position: center;
+  margin: 30px;
+  
+}
+
 @media screen and (max-width: 1300px) {
 
   /* TALKS & WORKSHOPS SECTION */
@@ -782,6 +798,15 @@ export default {
   .talk-details {
     width: 100%;
   }
+
+   .sponsors {
+    padding: 48px 90px;
+  }
+  .sponsor-child img {
+    margin: 48px 30px;
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -795,6 +820,8 @@ export default {
   .program-half {
     padding: 0;
   }
+
+ 
 }
 
 @media screen and (max-width: 500px) {
@@ -815,6 +842,9 @@ export default {
 
   .period-details p:nth-child(2) {
     font-size: 11px;
+  }
+  .sponsors {
+    padding: 30px 60px;
   }
 }
 
@@ -855,6 +885,16 @@ export default {
 
   .about-details li span {
     font-size: 14px;
+  }
+
+  .sponsor-child img {
+    margin: 16px 8px;
+    width: 90px;
+    height: 90px;
+  }
+
+    .sponsors {
+    padding: 30px 30px;
   }
 }
 </style>
