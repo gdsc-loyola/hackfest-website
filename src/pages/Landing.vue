@@ -45,6 +45,224 @@
         </div>
       </div>
     </div>
+
+    <div class="keynote">
+      <h1>"Keynote Speaker"</h1>
+      <div class="keynote-speakers">
+        <div class="keynote-speaker">
+          <img src="../assets/shad.png" alt="sirshad" />
+          <h5>Shad Roi de la Cruz</h5>
+          <p>DSC Manager, Google</p>
+        </div>
+        <div class="keynote-speaker">
+          <img src="../assets/frabau.png" alt="frabau" />
+          <h5>Francis Bautista</h5>
+          <p>Co-Founder, Indigo Research</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="talks-section">
+      <h1>Talks and Workshops</h1>
+      <div class="talks">
+
+        <div class="talk">
+          <div class="talk-details">
+            <h5>Web and Mobile</h5>
+            <p>
+              Dessert dragée macaroon toffee candy candy cake. Sesame snaps halvah lollipop pastry macaroon
+              cake chocolate. Sweet roll danish gingerbread pie jujubes sweet fruitcake. Lemon drops 
+              fruitcake candy canes dragée croissant ice cream tootsie roll. Cheesecake gingerbread 
+              candy canes.
+            </p>
+            <a class="learn-btn" href="#">Learn More</a> 
+          </div>
+        </div>
+
+        <div class="talk">
+          <div class="talk-details">
+            <h5>Data Science and Cloud</h5>
+            <p>
+              Dessert dragée macaroon toffee candy candy cake. Sesame snaps halvah lollipop pastry macaroon
+              cake chocolate. Sweet roll danish gingerbread pie jujubes sweet fruitcake. Lemon drops 
+              fruitcake candy canes dragée croissant ice cream tootsie roll. Cheesecake gingerbread 
+              candy canes.
+            </p>
+            <a class="learn-btn" href="#">Learn More</a> 
+          </div>
+        </div>
+
+        <div class="talk">
+          <div class="talk-details">
+            <h5>Business in Tech</h5>
+            <p>
+              Dessert dragée macaroon toffee candy candy cake. Sesame snaps halvah lollipop pastry macaroon
+              cake chocolate. Sweet roll danish gingerbread pie jujubes sweet fruitcake. Lemon drops 
+              fruitcake candy canes dragée croissant ice cream tootsie roll. Cheesecake gingerbread 
+              candy canes.
+            </p>
+            <a class="learn-btn" href="#">Learn More</a> 
+          </div>
+        </div>
+
+        <div class="talk">
+          <div class="talk-details">
+            <h5>Women and Students in Tech</h5>
+            <p>
+              Dessert dragée macaroon toffee candy candy cake. Sesame snaps halvah lollipop pastry macaroon
+              cake chocolate. Sweet roll danish gingerbread pie jujubes sweet fruitcake. Lemon drops 
+              fruitcake candy canes dragée croissant ice cream tootsie roll. Cheesecake gingerbread 
+              candy canes.
+            </p>
+            <a class="learn-btn" href="#">Learn More</a>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="program-section">
+      <h1>Program Flow</h1>
+      <div class="program-details">
+
+        <div class="program-half">
+          <div class="period">
+            <div class="period-time">
+              <p>08:00</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Registration</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>09:00</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Opening Remarks</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>09:10</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Keynote Speaker</p>
+              <p>What is Developer Student Clubs?</p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>09:40</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Morning Break</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>09:50</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Parallel Session -- Talk</p>
+              <p>...</p>
+            </div>
+          </div>
+          <div class="period">
+            <div class="period-time">
+              <p>10:40</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Parallel Session -- Talk</p>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="program-half">
+          <div class="period">
+            <div class="period-time">
+              <p>11:50</p>
+              <p>AM</p>
+            </div>
+            <div class="period-details">
+              <p>Lunch</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>01:00</p>
+              <p>PM</p>
+            </div>
+            <div class="period-details">
+              <p>Parallel Session -- Workshop</p>
+              <p>...</p>
+            </div>
+          </div>
+          
+          <div class="period">
+            <div class="period-time">
+              <p>02:40</p>
+              <p>PM</p>
+            </div>
+            <div class="period-details">
+              <p>Parallel Session -- Workshop</p>
+              <p>...</p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>04:10</p>
+              <p>PM</p>
+            </div>
+            <div class="period-details">
+              <p>Afternoon Break</p>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>04:20</p>
+              <p>PM</p>
+            </div>
+            <div class="period-details">
+              <p>Keynote Speaker</p>
+              <p>Future of Students in Tech</p>
+            </div>
+          </div>
+
+          <div class="period">
+            <div class="period-time">
+              <p>04:50</p>
+              <p>PM</p>
+            </div>
+            <div class="period-details">
+              <p>Closing Remarks</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
   </div>
 
 </template>
@@ -82,15 +300,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .landing {
   width: 100%;
 }
+
+/* HERO SECTION */
 
 .hero-about-section {
   width: 100%;
   background: url('../assets/grid.png');
   background-size: cover;
-  padding-bottom: 340px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .hero-section {
@@ -148,6 +370,8 @@ export default {
 .hero-img {
   width: 45%;
 }
+
+/* ABOUT SECTION */
 
 .about-section {
   display: flex;
@@ -226,7 +450,254 @@ export default {
   color: #000000;
 }
 
+/* KEYNOTE SECTION */
+
+.keynote {
+  display: none;
+  flex-direction: column;
+  background-color: #4285F4;
+}
+
+.keynote h1 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 31.25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 40px 0;
+}
+
+.keynote-speakers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.keynote-speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keynote-speaker img {
+  width: 200px;
+}
+
+.keynote-speaker h5 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 0 0;
+}
+
+.keynote-speaker p {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 5px 0 5px;
+}
+
+/* TALKS & WORKSHOPS SECTION */
+
+.talks-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+}
+
+.talks-section h1 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 31.25px;
+  text-align: center;
+  color: #000000;
+  margin: 40px 0;
+}
+
+.talks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+
+.talk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  padding: 35px 25px 35px 25px;
+  margin: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.talk-details {
+  width: 100%;
+}
+
+.talk-details h5 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  margin: 5px 0;
+}
+
+.talk-details p {
+  font-family: "Google Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7D8186;
+  margin: 0 0 25px;
+}
+
+.learn-btn {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  background-color: #4285F4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* PROGRAM SECTION */
+
+.program-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 70px;
+  box-sizing: border-box;
+}
+
+.program-section h1 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 31.25px;
+  text-align: center;
+  color: #000000;
+  margin: 40px 0;
+}
+
+.program-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.program-half {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.period {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.period-time {
+  margin-right: 15px;
+}
+
+.period-time p:nth-child(1) {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.7vw;
+  text-align: right;
+  color: #4285F4;
+  margin: 0;
+}
+
+.period-time p:nth-child(2) {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  text-align: right;
+  color: #000000;
+  margin: 0;
+}
+
+.period-details p:nth-child(1) {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.7vw;
+  color: #000000;
+  margin: 0;
+}
+
+.period-details p:nth-child(2) {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  color: #000000;
+  margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+
+  /* TALKS & WORKSHOPS SECTION */
+
+  .talk {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  /* PROGRAM SECITON */
+
+  .program-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-half {
+    width: 90%;
+  }
+
+  .period {
+    border-top: 1px solid grey;
+    padding-top: 25px;
+  }
+
+  .period-time p:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .period-time p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .period-details p:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .period-details p:nth-child(2) {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 800px) {
+
+  /* HERO SECTION */
+
   .hero-section {
     flex-direction: column;
   }
@@ -258,13 +729,132 @@ export default {
 
   .hero-img {
     align-self: flex-end;
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  /* ABOUT SECTION */
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-header {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .about-header h5{
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .about-details {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  /* KEYNOTE SECTION */
+
+  .keynote-speakers {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .keynote-speaker {
+    margin-bottom: 70px;
+  }
+
+  /* TALKS & WORKSHOPS SECTION */
+
+  .talk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 35px 25px 35px 25px;
+    margin: 10px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  .talk-details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* PROGRAM SECTION */
+
+  .program-section {
+    padding: 15px;
+  }
+
+  .program-half {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  /* PROGRAM SECTION */
+
+  .period-time p:nth-child(1) {
+    font-size: 14px;
+  }
+
+  .period-time p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .period-details p:nth-child(1) {
+    font-size: 14px;
+  }
+
+  .period-details p:nth-child(2) {
+    font-size: 11px;
   }
 }
 
 @media screen and (max-width: 400px) {
+
+  /* HERO SECTION */
+
   .hero-details {
     align-self: center;
     margin: 0;
+  }
+
+  .hero-details h1{
+    font-size: 20px;
+  }
+
+  .hero-date img, 
+  .hero-location img {
+    width: 20px;
+    margin-right: 15px;
+  }
+
+  .hero-date div p:nth-child(1), 
+  .hero-location div p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  .hero-date div p:nth-child(2), 
+  .hero-location div p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  /* ABOUT SECTION */
+
+  .about-details p {
+    font-size: 14px;
+  }
+
+  .about-details li span {
+    font-size: 14px;
   }
 }
 </style>
