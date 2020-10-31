@@ -28,7 +28,7 @@
       <div class="about-section">
         <div class="about-header">
           <p>About</p>
-          <h5>Hack <br> Festival</h5>
+          <h5>HackFest 2020: Online</h5>
         </div>
         <div class="about-details">
           <p>
@@ -36,16 +36,14 @@
             <br>
             This competition is open to all college undergraduate students and senior high school students nationwide. Members of each time need not come from the same school or be the same age. Each team will consist of three to four participants, guided all-throughout the event by a team mentor assigned by the HackFest 2020: Online Event Committee.
           </p>
-          <ul>
+          <!-- <ul>
             <li><span>Web and Mobile Development</span></li>
             <li><span>Data Science and Cloud</span></li>
             <li><span>Business in Tech</span></li>
             <li><span>Women and Student in Tech</span></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
-    </div>
-
     <div class="keynote">
       <h1>"Keynote Speaker"</h1>
       <div class="keynote-speakers">
@@ -258,13 +256,21 @@
             </div>
           </div>
         </div>
-
+          <div class="sponsors" id="sponsor">
+            <h5>Sponsors</h5>
+            <div class="sponsor-child">
+              <img src="../assets/ANC_logo_reg_FINAL copy.png" alt="ANC">
+              <img src="../assets/PayMongo.png" alt="PayMongo Logo">
+              <img src="../assets/repl.it.svg" alt="Repl.it Logo">
+              <img src="../assets/INQUIRER-DOT-NET-transparent-bg.png" alt="Inquirer Logo">
+              <img src="../assets/FWD.png" alt="FWD Logo">
+              <img src="../assets/DO_Logo_vertical_black.svg" alt="Digital Ocean">
+          </div>
+        </div>
       </div>
     </div>
-
-
   </div>
-
+  </div>
 </template>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -309,7 +315,6 @@ export default {
 
 .hero-about-section {
   width: 100%;
-  background: url('../assets/grid.png');
   background-size: cover;
   padding-bottom: 30px;
   box-sizing: border-box;
@@ -382,6 +387,7 @@ export default {
   margin: 30px auto;
   background-color: white;
   box-sizing: border-box;
+  background: url('../assets/grid.png');
 }
 
 .about-header {
@@ -469,6 +475,9 @@ export default {
 
 .keynote-speakers {
   display: flex;
+  align-self: center;
+  padding: 12px 0;
+  font-size: 32px;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 40px;
@@ -694,6 +703,17 @@ export default {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .sponsor-child img {
+    /* height: 100px; */
+    max-width: 100px;
+  }
+
+  .sponsor-child img[alt="Inquirer Logo"] {
+    height: 32px;
+  }
+}
+
 @media screen and (max-width: 800px) {
 
   /* HERO SECTION */
@@ -815,6 +835,13 @@ export default {
 
   .period-details p:nth-child(2) {
     font-size: 11px;
+  }
+
+  .sponsor-child img {
+    display: flex;
+    justify-items: center;
+    /* height: 64px; */
+    width: 64px;
   }
 }
 
