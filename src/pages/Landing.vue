@@ -45,18 +45,6 @@
         </div>
       </div>
     </div>
-    <div class="sponsors">
-      <h5>Sponsors</h5>
-      <div class="sponsor-child">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-      </div>
-    </div>
   </div>
 
 </template>
@@ -236,39 +224,6 @@ export default {
   font-size: 16px;
   line-height: 21px;
   color: #000000;
-}
-
-.sponsors {
-  width: 100vw;
-  background-color: #FAFAFA;
-  height: 350px;
-}
-
-.sponsors h5 {
-  font-family: "Google Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 12px 0;
-  font-size: 32px;
-  font-weight: 500;
-  margin: 0;
-}
-
-.sponsor-child {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 48px;
-}
-
-.sponsor-child img {
-  height: 160px;
-  width: 160px;
-  padding-right: 44px;
-}
-
-.sponsor-child img:last-child {
-  padding: 0;
 }
 
 @media screen and (max-width: 800px) {
