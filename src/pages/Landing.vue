@@ -32,13 +32,9 @@
         </div>
         <div class="about-details">
           <p>
-            Hackfest 2020 is the Developer Student Clubs’ flagship 
-            technology conference organized by students. This is 
-            a one-day event that aims to equip aspiring innovators 
-            with much-coveted technological insights to aid them 
-            in the process of shaping the future they wish to behold. 
-            In line with this, the event will be addressing 4 of the 
-            current hot trends in tech, namely:
+            HackFest 2020: Online is a 10-day event composed of online technical workshops, webinars, and a 48-hour hackathon proper where students can exercise the skills they learned by coming up with creative, digital solutions to a given problem through the use of technology. Experts from different technological fields will share their expertise, provide insight and impart sufficient technical knowledge, all geared towards preparing the participants for the hackathon. In the hackathon, teams will compete with one another by creating software applications that address the present-day plight of Filipinos across the country.
+            <br>
+            This competition is open to all college undergraduate students and senior high school students nationwide. Members of each time need not come from the same school or be the same age. Each team will consist of three to four participants, guided all-throughout the event by a team mentor assigned by the HackFest 2020: Online Event Committee.
           </p>
           <ul>
             <li><span>Web and Mobile Development</span></li>
@@ -270,6 +266,31 @@
   </div>
 
 </template>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBm3i5DJQ_fNBy_TIgrf3TtMkTmvzOR-Zc",
+    authDomain: "hackfest-2020.firebaseapp.com",
+    databaseURL: "https://hackfest-2020.firebaseio.com",
+    projectId: "hackfest-2020",
+    storageBucket: "hackfest-2020.appspot.com",
+    messagingSenderId: "658920405863",
+    appId: "1:658920405863:web:02b69259783a2740018dc2",
+    measurementId: "G-BTJFBSN1XQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 <script>
 export default {
