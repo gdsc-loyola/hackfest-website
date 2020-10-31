@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   footer {
     padding: 0 40px;
     display: flex;
@@ -56,4 +56,18 @@ export default {
     color: #000000;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 800px) {
+    .footer {
+      flex-direction: column;
+    } 
+
+    .footer-secondary {
+      flex-direction: column;
+      right: auto;
+    }
+  }
+
+  /* @media screen and (max-width: 500px) {
+  } */
 </style>
