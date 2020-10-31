@@ -28,7 +28,7 @@
       <div class="about-section">
         <div class="about-header">
           <p>About</p>
-          <h5>Hack <br> Festival</h5>
+          <h5>HackFest 2020: Online</h5>
         </div>
         <div class="about-details">
           <p>
@@ -36,27 +36,26 @@
             <br>
             This competition is open to all college undergraduate students and senior high school students nationwide. Members of each time need not come from the same school or be the same age. Each team will consist of three to four participants, guided all-throughout the event by a team mentor assigned by the HackFest 2020: Online Event Committee.
           </p>
-          <ul>
+          <!-- <ul>
             <li><span>Web and Mobile Development</span></li>
             <li><span>Data Science and Cloud</span></li>
             <li><span>Business in Tech</span></li>
             <li><span>Women and Student in Tech</span></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
-    </div>
-    <div class="sponsors">
+    <div class="sponsors" id="sponsor">
       <h5>Sponsors</h5>
       <div class="sponsor-child">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
-        <img src="../assets/Ellipse 46.png" alt="Sponsor 1">
+        <img src="../assets/ANC_logo_reg_FINAL copy.png" alt="ANC">
+        <img src="../assets/PayMongo.png" alt="PayMongo Logo">
+        <img src="../assets/repl.it.svg" alt="Repl.it Logo">
+        <img src="../assets/INQUIRER-DOT-NET-transparent-bg.png" alt="Inquirer Logo">
+        <img src="../assets/FWD.png" alt="FWD Logo">
+        <img src="../assets/DO_Logo_vertical_black.svg" alt="Digital Ocean">
       </div>
     </div>
+  </div>
   </div>
 
 </template>
@@ -75,7 +74,6 @@ export default {
 
 .hero-about-section {
   width: 100%;
-  background: url('../assets/grid.png');
   background-size: cover;
   padding-bottom: 340px;
 }
@@ -145,6 +143,7 @@ export default {
   margin: 30px auto;
   background-color: white;
   box-sizing: border-box;
+  background: url('../assets/grid.png');
 }
 
 .about-header {
@@ -214,15 +213,19 @@ export default {
 }
 
 .sponsors {
-  width: 100vw;
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  width: 100%;
   background-color: #FAFAFA;
   height: 350px;
+  overflow-y: scroll;
 }
 
 .sponsors h5 {
   font-family: "Google Sans", sans-serif;
   display: flex;
-  justify-content: center;
+  align-self: center;
   padding: 12px 0;
   font-size: 32px;
   font-weight: 500;
@@ -232,18 +235,27 @@ export default {
 .sponsor-child {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 48px;
 }
 
-.sponsor-child img {
-  height: 160px;
-  width: 160px;
-  padding-right: 44px;
-}
+ .sponsor-child img {
+  max-width: 160px;
+} 
 
 .sponsor-child img:last-child {
   padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .sponsor-child img {
+    /* height: 100px; */
+    max-width: 100px;
+  }
+
+  .sponsor-child img[alt="Inquirer Logo"] {
+    height: 32px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -278,6 +290,13 @@ export default {
 
   .hero-img {
     align-self: flex-end;
+  }
+
+  .sponsor-child img {
+    display: flex;
+    justify-items: center;
+    /* height: 64px; */
+    width: 64px;
   }
 }
 
