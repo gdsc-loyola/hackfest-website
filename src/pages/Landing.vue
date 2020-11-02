@@ -44,7 +44,20 @@
         </div>
       </div>
     </div>
-
+      <div class="sponsors" id="sponsor">
+        <h5>Co-presented by</h5>
+        <div class="sponsor-child">
+        <!-- TODO: Replace logos into white -->
+        <img src="../assets/ANC_logo_reg_FINAL copy.png" alt="ANC">
+        <img src="../assets/PayMongo.png" alt="PayMongo Logo">
+        <img src="../assets/repl.it.svg" alt="Repl.it Logo">
+        <img src="../assets/INQUIRER-DOT-NET-transparent-bg.png" alt="Inquirer Logo">
+        <img src="../assets/FWD.png" alt="FWD Logo">
+        <img src="../assets/DO_Logo_vertical_black.svg" alt="Digital Ocean">
+        <!-- TODO: Add DataCamp Logo -->
+        <img src="../assets/Ellipse 46.png" alt="Sponsor 7">
+        </div>
+      </div>
     <div class="keynote">
       <h1>"Keynote Speaker"</h1>
       <div class="keynote-speakers">
@@ -258,17 +271,7 @@
         </div>       
        </div>
       </div>
-      <div class="sponsors" id="sponsor">
-            <h5>Sponsors</h5>
-            <div class="sponsor-child">
-              <img src="../assets/ANC_logo_reg_FINAL copy.png" alt="ANC">
-              <img src="../assets/PayMongo.png" alt="PayMongo Logo">
-              <img src="../assets/repl.it.svg" alt="Repl.it Logo">
-              <img src="../assets/INQUIRER-DOT-NET-transparent-bg.png" alt="Inquirer Logo">
-              <img src="../assets/FWD.png" alt="FWD Logo">
-              <img src="../assets/DO_Logo_vertical_black.svg" alt="Digital Ocean">
-          </div>
-    </div>
+      
 
 
   </div>
@@ -635,7 +638,7 @@ export default {
 
 /* SPONSOR SECTION */
 .sponsors {
-  background: #FAFAFA;
+  background: #4285F4;
   padding: 48px 120px;
 }
 
