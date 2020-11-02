@@ -25,7 +25,7 @@
         </div>
         <img class="hero-img" src="../assets/DSC Illustration 1.png" alt="DSC" />
       </div>
-      <div class="about-section">
+      <div class="about-section" id="about">
         <div class="about-header">
           <p>About</p>
           <h5>Hack <br> Festival</h5>
