@@ -1,63 +1,86 @@
 <template>
-    <nav>
-        <img src="../assets/hackfest_logo.svg" alt="hackfest-logo" />
-        <a href="#">Buy Tickets</a>
-    </nav>
-
+  <nav>
+      <router-link to="/">
+          <img
+            alt="Developer Student Clubs Loyola logo"
+            src="@/assets/icons/hackfest_icon.svg"
+          />
+        </router-link>
+      <ul
+        id="desktop-nav"
+      >
+       <router-link tag="li" to="/about">About</router-link>
+       <router-link tag="li" to="/schedule">Schedule</router-link>
+       <router-link tag="li" to="/mechanics">Mechanics</router-link>
+       <router-link tag="li" to="/partners">Partners</router-link>
+       <router-link tag="li" to="/faqs">FAQs</router-link>
+       <router-link tag="li" to="/contact">Contact</router-link>
+       <li><a href="bit.ly/RegisterHF2020Online" target="_blank" rel="noopener noreferrer"><button>Register</button></a></li>
+      </ul>
+  </nav>
 </template>
 
 <script>
 export default {
-  name: 'Navbar'
-}
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    padding: 0 40px;
-    box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-a {
-    font-family: "Google Sans", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #FFFFFF;
+ul {
+  list-style: none;
+  letter-spacing: 0.02em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+    font-family: Google Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    margin: 0 16px;
+    color: #151522;
     text-decoration: none;
-    padding: 10px 20px;
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+li > a > button {
+    font-family: Google Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
     background: #4285F4;
-    border-radius: 4px;
+    border: 1px solid #4285F4;
+    border-radius: 5px;
+    padding: 8px 30px;
 }
 
-@media screen and (max-width: 600px) {
-    img {
-        width: 200px;
-    }
-
-    a {
-        font-size: 14px;
-        padding: 10px 15px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    nav {
-        padding: 0 15px;
-    }
-
-    img {
-        width: 180px;
-    }
-
-    a {
-        font-size: 11px;
-        padding: 7px 14px;
-    }
+li > a > button:hover {
+    background: #FFFFFF;
+    color: #4285F4;
+    cursor: pointer;
 }
 </style>
