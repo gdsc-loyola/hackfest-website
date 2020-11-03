@@ -53,41 +53,23 @@ export default {
     box-sizing: border-box;
     font-family: "Google Sans", sans-serif;
   }
-<<<<<<< HEAD
-
   .footer-primary {
     width: 500px;
   }
-
-=======
-  .footer-primary {
-    width: 500px;
-  }
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   .footer-primary a {
     margin-right: 10px;
     cursor: pointer;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   .footer-secondary {
     display: flex;
     flex-direction: row;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   .footer-menu {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
   }
 
-<<<<<<< HEAD
-=======
   .footer-menu h4 {
     padding: 0;
     margin: 0;
@@ -101,7 +83,6 @@ export default {
     margin-bottom: 24px !important;
 }
 
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   .footer-menu a {
     text-decoration: none;
     color: #000000;
@@ -109,8 +90,6 @@ export default {
     margin-bottom: 10px;
   }
 
-<<<<<<< HEAD
-=======
   .footer-button-wrapper {
       display: flex;
       justify-content: flex-end;
@@ -135,47 +114,31 @@ export default {
         color: #4285F4;
         cursor: pointer;
   }
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   @media screen and (max-width: 900px) {
     footer {
       flex-direction: column-reverse;
       align-items: flex-start;
     }
-<<<<<<< HEAD
-
     .footer-menu:nth-child(1) {
       padding: 0;
     }
-
-=======
-    .footer-menu:nth-child(1) {
-      padding: 0;
-    }
->>>>>>> e1987ac55789241012189858d37c99933450c11d
     .footer-secondary {
       margin-bottom: 20px;
     }
-  }
-<<<<<<< HEAD
 
-=======
->>>>>>> e1987ac55789241012189858d37c99933450c11d
+    .footer-button-wrapper {
+      display: none;
+    }
+
+  }
   @media screen and (max-width: 640px) {
     footer {
-      padding: 30px ;
+      padding: 30px;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> e1987ac55789241012189858d37c99933450c11d
     .footer-primary {
       width: 100%;
     }
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> e1987ac55789241012189858d37c99933450c11d
   @media screen and (max-width: 500px) {    
     .logo {
       width: 100%;
