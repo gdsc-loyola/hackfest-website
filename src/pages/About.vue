@@ -16,6 +16,20 @@
       </div>  
       
     </section>
+    <section class="sponsors" id="sponsor">
+        <h5>Co-presented by</h5>
+        <div class="sponsor-child">
+          <!-- TODO: Replace logos into white -->
+          <img src="../assets/images/anc.png" alt="ANC Logo">
+          <img src="../assets/images/paymongo.png" alt="PayMongo Logo">
+          <img src="../assets/images/repl.it.svg" alt="Repl.it Logo">
+          <img src="../assets/images/inquirer.png" alt="Inquirer Logo">
+          <img src="../assets/images/fwd.png" alt="FWD Logo">
+          <img src="../assets/images/digitalocean.svg" alt="Digital Ocean Logo">
+          <!-- TODO: Add DataCamp Logo -->
+          
+        </div>
+    </section>
     <section class="about-section" id="hackfest">
       <div class="about-header">
         <p>About</p>
@@ -128,6 +142,40 @@ main {
   color: #FFFFFF;
   background: #000000;
 }
+
+/* SPONSOR SECTION */
+.sponsors {
+  background: #4285F4;
+  padding: 48px 120px;
+}
+
+.sponsors h5 {
+  font-family: 'Google Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 0 0 45px 0;
+}
+
+.sponsor-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.sponsor-child img {
+  max-width: 180px;
+  object-fit: contain;
+  object-position: center;
+  margin: 30px 16px;
+  
+}
+
 
 /* ABOUT SECTION */
 .about-section {
