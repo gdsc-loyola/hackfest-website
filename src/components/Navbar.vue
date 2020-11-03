@@ -3,7 +3,7 @@
       <router-link to="/">
           <img
             alt="Developer Student Clubs Loyola logo"
-            src="@/assets/hackfest_icon.svg"
+            src="@/assets/icons/hackfest_icon.svg"
           />
         </router-link>
       <ul

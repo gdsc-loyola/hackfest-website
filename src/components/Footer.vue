@@ -1,7 +1,7 @@
 <template>
     <footer>
       <div class="footer-primary">
-        <img class="logo" src="../assets/hackfest_logo.svg" alt="hackfest-logo" />
+        <img class="logo" src="../assets/images/hackfest_logo.svg" alt="hackfest-logo" />
         <p>Hackfest 2020 is the Developer Student Club Loyola's (DSC) flagship organised by students for students.</p>
         <a href="https://www.facebook.com/dscloyola" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/fb.svg" alt="facebook"></a>
         <a href="https://twitter.com/dscloyola?lang=en" target="_blank" rel="noopener noreferrer"><img src="../assets/icons/tw.svg" alt="twitter"></a>
