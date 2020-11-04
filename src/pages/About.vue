@@ -19,15 +19,14 @@
     <section class="sponsors" id="sponsor">
         <h5>Co-presented by</h5>
         <div class="sponsor-child">
-          <!-- TODO: Replace logos into white -->
           <img src="../assets/images/anc.png" alt="ANC Logo">
           <img src="../assets/images/paymongo.png" alt="PayMongo Logo">
-          <img src="../assets/images/repl.it.svg" alt="Repl.it Logo">
-          <img src="../assets/images/inquirer.png" alt="Inquirer Logo">
           <!-- TODO: Replace logos into white -->
           <img src="../assets/images/fwd.png" alt="FWD Logo">
-          <img src="../assets/images/digitalocean.png" alt="Digital Ocean Logo">
+           <img src="../assets/images/digitalocean.png" alt="Digital Ocean Logo">
           <img src="../assets/images/datacamp.png" alt="Datacamp Logo">
+          <img src="../assets/images/repl.it.svg" alt="Repl.it Logo">
+          <img src="../assets/images/inquirer.png" alt="Inquirer Logo">
         </div>
     </section>
     <section class="about-section" id="hackfest">
@@ -101,12 +100,17 @@ main {
 }
 
 .hackfest_logo {
-  height: 80px;
+  height: 60px;
 }
 
 .landing_image {
   height: 720px;
   margin-left: 60px;
+}
+
+.landing_image img {
+  width: 100%;
+  height: 100%;
 }
 
 .landing_button_wrapper {
@@ -155,7 +159,7 @@ main {
 /* SPONSOR SECTION */
 .sponsors {
   background: #4285F4;
-  padding: 48px 120px;
+  padding: 60px 90px;
 }
 
 .sponsors h5 {
@@ -182,7 +186,6 @@ main {
   object-fit: contain;
   object-position: center;
   margin: 30px;
-  
 }
 
 
@@ -280,6 +283,10 @@ main {
   text-align: center;
 }
 
+.cta-button-wrapper .primary-cta {
+  margin: 0;
+}
+
 .cta-button-wrapper {
   display: flex;
   justify-content: center;
@@ -314,6 +321,36 @@ main {
     justify-content: flex-end;
     padding-right: 90px;
   }
+
+  #landing h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .about-header {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .about-header  h5, .about-header  p {
+    text-align: left;
+  }
+  .about-section {
+    width: 100%;
+    padding: 0 90px;
+    display: block;
+  }
+
+  .about-details {
+    width: 100%;
+  }
+
+
+.sponsors h5 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 30px 0;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -329,6 +366,10 @@ main {
     height: auto;
   }
 
+  .sponsor-child img {
+    margin: 24px 0;
+    max-width: 50%;
+  }
   
   #landing h2 {
     font-size: 24px;
@@ -341,6 +382,36 @@ main {
     height: 420px;
     padding-right: 60px;
   }
+
+  #landing h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about-details {
+    padding-top: 30px;
+  }
+
+  .about-details p {
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+
+  .about-section {
+    width: 100%;
+    padding: 0 60px;
+    display: block;
+  }
+
+  .cta-section h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .sponsors {
+    padding: 60px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -352,6 +423,10 @@ main {
     padding-right: 30px;
   }
 
+ .sponsor-child img {
+    margin: 16px;
+  }
+
   .landing_button_wrapper button {
     padding: 8px 16px;
   }
@@ -361,12 +436,50 @@ main {
     padding-right: 30px;
     justify-content: center;
   }
+
+   #landing h2 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 12px 0;
+  }
+
+  .about-details {
+    padding-top: 16px;
+  }
+
+  .about-section {
+    width: 100%;
+    padding: 0 30px;
+    display: block;
+  }
+
+  .sponsors {
+    padding: 60px 30px;
+  }
 }
 
 @media screen and (max-width: 375px) {
+   #landing {
+    display: block;
+    padding-left: 16px;
+  }
   .landing_image {
     height: 300px;
     padding-right: 30px;
+  }
+
+  .about-section {
+    width: 100%;
+    padding: 0 16px;
+    display: block;
+  }
+
+  .hackfest_logo {
+    height: 30px;
+  }
+
+  .sponsors {
+    padding: 30px 16px;
   }
 }
 </style>

@@ -35,12 +35,22 @@
                 />
               </router-link>
             </div>
+            <ul>
+                <router-link tag="li" to="/about">About</router-link>
+                <router-link tag="li" to="/schedule">Schedule</router-link>
+                <router-link tag="li" to="/mechanics">Mechanics</router-link>
+                <router-link tag="li" to="/partners">Partners</router-link>
+                <router-link tag="li" to="/faqs">FAQs</router-link>
+                <router-link tag="li" to="/contact">Contact</router-link>
+                <li><a href="bit.ly/RegisterHF2020Online" target="_blank" rel="noopener noreferrer"><button>Register</button></a></li>
+            </ul>
           </div>
           <div class="content" slot="content">
             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" @click="handleToggleDrawer">
               <circle cx="20" cy="20" r="20" fill="#4285F4"/>
               <path d="M11 26H29M11 14H29H11ZM11 20H29H11Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
+            
           </div>
         </vue-drawer-layout>
       </div>
@@ -138,7 +148,8 @@ li > a > button:hover {
 .drawer-logo {
   display: flex;
   justify-content: center;
-  margin-top: 24px;
+  margin: 24px 0 30px 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -149,6 +160,23 @@ li > a > button:hover {
   #mobile-nav {
     display: block
   }
+
+  ul {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  li {
+      font-family: "Google Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 110%;
+      margin: 16px 0;
+      color: #000000;
+      text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -160,6 +188,13 @@ li > a > button:hover {
 @media screen and (max-width: 540px) {
   .content, .drawer {
     padding: 16px 30px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .content, .drawer {
+    padding: 16px;
   }
 }
 
