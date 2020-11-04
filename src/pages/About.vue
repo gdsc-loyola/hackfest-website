@@ -24,10 +24,10 @@
           <img src="../assets/images/paymongo.png" alt="PayMongo Logo">
           <img src="../assets/images/repl.it.svg" alt="Repl.it Logo">
           <img src="../assets/images/inquirer.png" alt="Inquirer Logo">
+          <!-- TODO: Replace logos into white -->
           <img src="../assets/images/fwd.png" alt="FWD Logo">
-          <img src="../assets/images/digitalocean.svg" alt="Digital Ocean Logo">
-          <!-- TODO: Add DataCamp Logo -->
-          
+          <img src="../assets/images/digitalocean.png" alt="Digital Ocean Logo">
+          <img src="../assets/images/datacamp.png" alt="Datacamp Logo">
         </div>
     </section>
     <section class="about-section" id="hackfest">
@@ -54,6 +54,15 @@
         </p>
       </div>
     </section>
+    <section class="cta-section">
+      <div>
+         <h1>Ready to hack it?</h1>
+         <div class="cta-button-wrapper">
+            <a href="bit.ly/RegisterHF2020Online" target="_blank" rel="noopener noreferrer"><button class="primary-cta">Register</button></a>
+         </div>
+        
+      </div>
+    </section>
   </main>
 </template>
 
@@ -77,7 +86,7 @@ main {
 }
 
 #landing h2 {
-  font-family: Google Sans, sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -104,7 +113,7 @@ main {
   display: flex;
 }
 .primary-cta {
-  font-family: Google Sans, sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -125,7 +134,7 @@ main {
 }
 
 .secondary-cta {
-  font-family: Google Sans, sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -172,7 +181,7 @@ main {
   max-width: 180px;
   object-fit: contain;
   object-position: center;
-  margin: 30px 16px;
+  margin: 30px;
   
 }
 
@@ -253,6 +262,28 @@ main {
   color: #000000;
 }
 
+.cta-section {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-section h1 {
+  font-family: "Google Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+  margin: 0 0 30px 0;
+  color: #000000;
+}
+
+.cta-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 900px) {
   #landing {
     display: block;
