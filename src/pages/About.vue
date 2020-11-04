@@ -277,6 +277,7 @@ main {
   line-height: 61px;
   margin: 0 0 30px 0;
   color: #000000;
+  text-align: center;
 }
 
 .cta-button-wrapper {
@@ -285,6 +286,14 @@ main {
   align-items: center;
 }
 @media screen and (max-width: 900px) {
+  main {
+    margin-top: 60px;
+  }
+
+  .landing_image img {
+    width: 100%;
+  }
+
   #landing {
     display: block;
     padding-left: 90px;
@@ -348,7 +357,7 @@ main {
   }
 
   .landing_image {
-    height: 360px;
+    height: 320px;
     padding-right: 30px;
     justify-content: center;
   }
