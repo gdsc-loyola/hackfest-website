@@ -53,6 +53,18 @@
         </p>
       </div>
     </section>
+    <section class="card-section">
+      <div class="card-wrapper">
+        <div v-for="one in aboutOne" :key="one">
+          <about-card :image="one.image" :title="one.title" :description="one.description" :link="one.link" :isImage="true" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div v-for="two in aboutTwo" :key="two">
+          <about-card :title="two.title" :description="two.description" :link="two.link" :isImage="false"/>
+        </div>
+      </div>
+    </section>
     <section class="cta-section">
       <div>
          <h1>Ready to hack it?</h1>
@@ -66,7 +78,50 @@
 </template>
 
 <script>
+import AboutCard from '@/components/AboutCard.vue'
+import schedule from '@/assets/images/schedule.png'
+import mechanics from '@/assets/images/mechanics.png'
+
 export default {
+  name: 'About',
+  components: {
+    AboutCard
+  },
+  data() {
+    return {
+      aboutOne:  [
+        {
+          image: schedule,
+          title: "Schedule",
+          description: "Check out our jampacked schedule full of workshops and webinars before we conclude the event with a 48-hour hackathon!",
+          link: "/schedule",
+        },
+        {
+          image: mechanics,
+          title: "Mechanics",
+          description: "How will the hackathon work? How do you win? What rules do you need to follow? Check out the mechanics for HackFest 2020!",
+          link: "/mechanics",
+        }
+      ],
+      aboutTwo:  [
+        {
+          title: "Our Partners",
+          description: "Check out the sponsors and partners that made this event possible. Without them, HackFest 2020 wouldn’t be the way it is today!",
+          link: "/partners",
+        },
+        {
+          title: "Frequently Asked Questions",
+          description: "Here are some of the common questions that need clarifications for HackFest 2020. Check out the FAQs for some of your inquiries that might need answering!",
+          link: "/faqs",
+        },
+        {
+          title: "Contact Us",
+          description: "Have any more clarifications, inquiries, or concerns? We’re here for you. Don’t be afraid to reach out to us! ",
+          link: "/contact",
+        }
+      ]
+    }
+  }
 }
 </script>
 
@@ -265,6 +320,15 @@ main {
   color: #000000;
 }
 
+.card-section {
+  background: #FAFAFA;
+  padding: 30px 90px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .cta-section {
   padding: 60px;
   display: flex;
@@ -351,6 +415,10 @@ main {
   line-height: 36px;
   margin: 0 0 30px 0;
 }
+
+  .card-wrapper {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -409,7 +477,7 @@ main {
     line-height: 48px;
   }
 
-  .sponsors {
+  .sponsors, .card-section {
     padding: 60px;
   }
 }
@@ -453,7 +521,7 @@ main {
     display: block;
   }
 
-  .sponsors {
+  .sponsors,.card-section {
     padding: 60px 30px;
   }
 }
@@ -478,7 +546,7 @@ main {
     height: 30px;
   }
 
-  .sponsors {
+  .sponsors, .card-section {
     padding: 30px 16px;
   }
 }
