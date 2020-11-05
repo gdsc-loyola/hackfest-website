@@ -50,14 +50,17 @@ export default {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 .drop-header img {
-  transition: all 0.5s
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .drop-details hr {
   margin: 15px 0;
+  
 }
 
 </style>
