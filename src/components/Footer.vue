@@ -43,11 +43,7 @@ export default {
 }
 </script>
 
-<<<<<<< HEAD
-<style scoped>
-=======
 <style>
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   footer {
     padding: 50px 70px;
     display: flex;
@@ -57,41 +53,23 @@ export default {
     box-sizing: border-box;
     font-family: "Google Sans", sans-serif;
   }
-<<<<<<< HEAD
-
   .footer-primary {
     width: 500px;
   }
-
-=======
-  .footer-primary {
-    width: 500px;
-  }
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   .footer-primary a {
     margin-right: 10px;
     cursor: pointer;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   .footer-secondary {
     display: flex;
     flex-direction: row;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   .footer-menu {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
   }
 
-<<<<<<< HEAD
-=======
   .footer-menu h4 {
     padding: 0;
     margin: 0;
@@ -105,7 +83,6 @@ export default {
     margin-bottom: 24px !important;
 }
 
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   .footer-menu a {
     text-decoration: none;
     color: #000000;
@@ -113,30 +90,6 @@ export default {
     margin-bottom: 10px;
   }
 
-<<<<<<< HEAD
-  footer button {
-    font-family: "Google Sans", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 20px;
-    background: #4285F4;
-    border-radius: 4px;
-    border: none;
-  }
-
-  @media screen and (max-width: 900px) {
-    footer {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    /* .footer-menu:nth-child(1) {
-      padding: 0;
-    } */
-
-=======
   .footer-button-wrapper {
       display: flex;
       justify-content: flex-end;
@@ -169,28 +122,10 @@ export default {
     .footer-menu:nth-child(1) {
       padding: 0;
     }
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
     .footer-secondary {
       margin-bottom: 20px;
     }
   }
-<<<<<<< HEAD
-
-  @media screen and (max-width: 640px) {
-    footer {
-      padding: 30px;
-    }
-
-    .footer-primary {
-      width: 100%;
-    }
-
-    .footer-secondary {
-      flex-direction: row;
-    }
-  }
-
-=======
   @media screen and (max-width: 640px) {
     footer {
       padding: 30px ;
@@ -199,27 +134,9 @@ export default {
       width: 100%;
     }
   }
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
   @media screen and (max-width: 500px) {    
     .logo {
       width: 100%;
     }
   }
-<<<<<<< HEAD
-
-  @media screen and (max-width: 800px) {
-    .footer {
-      flex-direction: column;
-    } 
-
-    .footer-secondary {
-      flex-direction: column;
-      right: auto;
-    }
-  }
-
-  /* @media screen and (max-width: 500px) {
-  } */
-=======
->>>>>>> 4005f9e3cf6ebb19af32d92f6b7d37d14bc6ed1a
 </style>
