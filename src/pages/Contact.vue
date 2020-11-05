@@ -29,6 +29,48 @@
                 </div>
             </div>
         </div>
+        <div class="stay-up-to-date-section">
+            <h1>Stay up-to-date</h1>
+            <div class="stay-up-to-date-socmed">
+                <div class="socmed">
+                    <img src="../components/assets/fb_filled.png">
+                    <div class="socmed-content">
+                        <h2>Facebook</h2>
+                        <p>@dscloyola</p>
+                    </div>
+                </div>
+                <div class="socmed">
+                    <img src="../components/assets/linkedin_hover.png">
+                    <div class="socmed-content">
+                        <h2>LinkedIn</h2>
+                        <p>dsc-ateneo</p>
+                    </div>
+                </div>
+                <div class="socmed">
+                    <img src="../components/assets/ig_filled.png">
+                    <div class="socmed-content">
+                        <h2>Instagram</h2>
+                        <p>@dsc.ateneo</p>
+                    </div>
+                </div>
+                <div class="socmed">
+                    <img src="../components/assets/tw_hover.png">
+                    <div class="socmed-content">
+                        <h2>Twitter</h2>
+                        <p>@dsc.ateneo</p>
+                    </div>
+                </div>
+                <div class="socmed">
+                    <img src="../components/assets/email_filled.png">
+                    <div class="socmed-content">
+                        <h2>Email</h2>
+                        <p>dsc.ateneo@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </main>
 </template>
 
@@ -60,7 +102,7 @@ export default {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 20px 270px 0 270px;
+        padding: 20px 270px 100px 270px;
         flex-wrap: wrap;
     }
 
@@ -90,6 +132,58 @@ export default {
         font-size: 20px;
     }
 
+    /* STAY UP-TO-DATE SECTION */
+
+    .stay-up-to-date-section {
+        width: 100%;
+    }
+
+    .stay-up-to-date-section h1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 44px;
+    }
+
+    .stay-up-to-date-socmed {
+        display: flex;
+        padding: 0 144px;
+        flex-wrap: wrap;
+        justify-items: space-between;
+        justify-content: center;
+    }
+
+    .socmed {
+        display: flex;
+        flex-direction: row;
+        width: 552px;
+        border: 1px solid #2F80ED;
+        border-radius: 10px;
+        margin-bottom: 28px;
+    }
+
+    .socmed:nth-child(2n) {
+        margin-left: 48px;
+    }
+
+    .socmed:last-child {
+        margin-bottom: 0;
+    }
+
+    .socmed img {
+        width: 84px;
+        height: 84px;
+        padding: 30px 36px;
+    }
+
+    .socmed-content {
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+    }
+
+    .socmed-content h2, p {
+        margin: 0;
+    }
     /* Mobile Breakpoints */
 
     /* @media screen and (max-width: 860px){
