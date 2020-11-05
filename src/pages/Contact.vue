@@ -68,9 +68,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </main>
 </template>
 
@@ -106,6 +104,10 @@ export default {
         flex-wrap: wrap;
     }
 
+    .contact-person h2 {
+        margin: 0;
+    }
+    
     .contact-person {
         width: 320px;
     }
