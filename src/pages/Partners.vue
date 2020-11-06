@@ -4,17 +4,17 @@
     <div class="partners-wrapper">
       <div class="gold-partners">
         <h2>Gold</h2>
-        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png">
-        <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png">
-        <img src="../assets/partners/Gold/WIM Logo (PNG).png">
+        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png" alt="Accenture logo">
+        <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png" alt="SGV logo">
+        <img src="../assets/partners/Gold/WIM Logo (PNG).png" alt="When In Manila logo">
       </div>
       <div class="silver-partners">
         <h2>Silver</h2>
-        <img src="../assets/partners/Silver/Ambidextr_logo_positive.png">
-        <img src="../assets/partners/Silver/MVN PHOTOSTUDIO_logo222.png">
-        <img src="../assets/partners/Silver/NP_Logo_Horizontal_Colored.png">
-        <img src="../assets/partners/Silver/SparkUp_logo_navy.png">
-        <img src="../assets/partners/Silver/UXPH Logo Full Colour CMYK.png">
+        <img src="../assets/partners/Silver/Ambidextr_logo_positive.png" alt="Ambidextr logo"> 
+        <img src="../assets/partners/Silver/MVN PHOTOSTUDIO_logo222.png" alt="MVN Photostudio logo">
+        <img src="../assets/partners/Silver/NP_Logo_Horizontal_Colored.png" alt="NextPay logo">
+        <img src="../assets/partners/Silver/SparkUp_logo_navy.png" aalt="SparkUp logo">
+        <img src="../assets/partners/Silver/UXPH Logo Full Colour CMYK.png" alt="UXPH logo">
       </div>
     </div>
   </main>
@@ -77,11 +77,11 @@ export default {
     padding: 0 0 24px 0;
   }
   .gold-partners img {
-    height: 56px;
+    height: 80px;
   }
 
   .silver-partners img {
-    height: 40px;
+    height: 28px;
   }
 
   @media screen and (max-width: 600px) {
