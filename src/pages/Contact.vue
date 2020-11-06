@@ -207,10 +207,16 @@ export default {
     }
     /* Mobile Breakpoints */
 
+    @media screen and (max-width: 1400px) {
+        .socmed:nth-child(2n) {
+           margin-left: 0;
+       } 
+    }
+
     @media screen and (max-width: 1250px){
        .contact-people {
            padding: 20px 10vw 100px 10vw;
-       } 
+       }
     }
 
     @media screen and (max-width: 924px) {
@@ -219,7 +225,26 @@ export default {
        } 
     }
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 832px) {
+        .contact-people {
+            justify-content: space-between;
+        }
+        
+        .stay-up-to-date-socmed {
+            padding: 0;
+            width: 95%;
+        }
+
+        .socmed {
+            margin: 0 0 24px 0;
+        }
+
+        .socmed:nth-child(2n) {
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
         .contact-people {
             display: flex;
             justify-content: center;
@@ -237,5 +262,22 @@ export default {
             padding: 0 0 24px 0;
         }
 
+        .stay-up-to-date-socmed {
+            justify-content: center;
+            padding: 0;
+        }
+
+        .socmed {
+            width: 90%;
+        }
+
+        .socmed img {
+            padding: 12px 8px 12px 16px;
+        }
+
+        .socmed:nth-child(2n) {
+            margin-left: 0;
+        }
+        
     }
 </style>
