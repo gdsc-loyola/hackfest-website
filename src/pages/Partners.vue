@@ -4,17 +4,17 @@
     <div class="partners-wrapper">
       <div class="gold-partners">
         <h2>Gold</h2>
-        <img src="../assets/partners/gold/Accenture logo_Masterbrand.png">
-        <img src="../assets/partners/gold/SGVlogo_bbww_2015.png">
-        <img src="../assets/partners/gold/WIM Logo (PNG).png">
+        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png">
+        <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png">
+        <img src="../assets/partners/Gold/WIM Logo (PNG).png">
       </div>
       <div class="silver-partners">
         <h2>Silver</h2>
-        <img src="../assets/partners/silver/Ambidextr_logo_positive.png">
-        <img src="../assets/partners/silver/MVN PHOTOSTUDIO_logo222.png">
-        <img src="../assets/partners/silver/NP_Logo_Horizontal_Colored.png">
-        <img src="../assets/partners/silver/SparkUp_logo_navy.png">
-        <img src="../assets/partners/silver/UXPH Logo Full Colour CMYK.png">
+        <img src="../assets/partners/Silver/Ambidextr_logo_positive.png">
+        <img src="../assets/partners/Silver/MVN PHOTOSTUDIO_logo222.png">
+        <img src="../assets/partners/Silver/NP_Logo_Horizontal_Colored.png">
+        <img src="../assets/partners/Silver/SparkUp_logo_navy.png">
+        <img src="../assets/partners/Silver/UXPH Logo Full Colour CMYK.png">
       </div>
     </div>
   </main>
@@ -60,7 +60,7 @@ export default {
 
   .partners-wrapper img {
     display: flex;
-    margin: 0 24px 24px 24px;
+    margin: 0 32px 32px 32px;
   }
 
   .gold-partners, .silver-partners {
@@ -74,14 +74,19 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 0 0 24px 0;
   }
   .gold-partners img {
-    height: 96px;
-    width: 96px;
+    height: 56px;
   }
 
   .silver-partners img {
-    height: 64px;
-    width: 64px;
+    height: 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+     .partners-wrapper {
+       padding: 0;
+     }
   }
 </style>
