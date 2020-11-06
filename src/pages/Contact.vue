@@ -6,25 +6,25 @@
                 <div class="contact-person">
                     <h2>Lance Lao</h2>
                     <span>Events Lead</span>
-                    <p>christopher.lao@obf.ateneo.edu</p>
+                    <a href="mailto:christopher.lao@obf.ateneo.edu" target="blank" rel="noopener noreferrer">christopher.lao@obf.ateneo.edu</a>
                     <p>09053733350</p>
                 </div>
                 <div class="contact-person">
                     <h2>Al Pagayatan</h2>
                     <span>Secretariat</span>
-                    <p>allyn.pagayatan@obf.ateneo.edu</p>
+                    <a href="mailto:allyn.pagayatan@obf.ateneo.edu" target="blank" rel="noopener noreferrer">allyn.pagayatan@obf.ateneo.edu</a>
                     <p>09175163005</p>
                 </div>
                 <div class="contact-person">
                     <h2>Ralph Macarasig</h2>
                     <span>Programs</span>
-                    <p>ralph.macarasig@obf.ateneo.edu</p>
+                    <a href="mailto:ralph.macarasig@obf.ateneo.edu" target="blank" rel="noopener noreferrer">ralph.macarasig@obf.ateneo.edu</a>
                     <p>09171090706</p>
                 </div>
                 <div class="contact-person">
                     <h2>Janelle Ong</h2>
                     <span>Logistics</span>
-                    <p>janella.ong@obf.ateneo.edu</p>
+                    <a href="mailto:janella.ong@obf.ateneo.edu" target="blank" rel="noopener noreferrer">janella.ong@obf.ateneo.edu</a>
                     <p>09177910138</p>
                 </div>
             </div>
@@ -36,35 +36,35 @@
                     <img src="../components/assets/fb_filled.png">
                     <div class="socmed-content">
                         <h2>Facebook</h2>
-                        <p>@dscloyola</p>
+                        <a href="https://www.facebook.com/dscloyola" target="blank" rel="noopener noreferrer">@dscloyola</a>
                     </div>
                 </div>
                 <div class="socmed">
                     <img src="../components/assets/linkedin_hover.png">
                     <div class="socmed-content">
                         <h2>LinkedIn</h2>
-                        <p>dsc-ateneo</p>
+                        <a href="https://www.linkedin.com/company/dsc-ateneo/" target="blank" rel="noopener noreferrer">dsc-ateneo</a>
                     </div>
                 </div>
                 <div class="socmed">
                     <img src="../components/assets/ig_filled.png">
                     <div class="socmed-content">
                         <h2>Instagram</h2>
-                        <p>@dsc.ateneo</p>
+                        <a href="https://www.instagram.com/dsc.loyola/" target="blank" rel="noopener noreferrer">@dsc.ateneo</a>
                     </div>
                 </div>
                 <div class="socmed">
                     <img src="../components/assets/tw_hover.png">
                     <div class="socmed-content">
                         <h2>Twitter</h2>
-                        <p>@dsc.ateneo</p>
+                        <a href="https://twitter.com/DSCLoyola" target="blank" rel="noopener noreferrer">@dsc.ateneo</a>
                     </div>
                 </div>
                 <div class="socmed">
                     <img src="../components/assets/email_filled.png">
                     <div class="socmed-content">
                         <h2>Email</h2>
-                        <p>dsc.ateneo@gmail.com</p>
+                        <a href="mailto:dsc.ateneo@gmail.com" target="blank" rel="noopener noreferrer">dsc.ateneo@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ export default {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 20px 270px 100px 270px;
+        padding: 20px 20vw 100px 20vw;
         flex-wrap: wrap;
     }
 
@@ -117,7 +117,7 @@ export default {
     } */
 
     .contact-person:nth-child(2n-1) {
-        padding: 0 112px 24px 0;
+        padding: 0 112px 80px 0;
     }
 
     .contact-person h2 {
@@ -132,6 +132,16 @@ export default {
 
     .contact-person p {
         font-size: 20px;
+    }
+
+    .contact-person a {
+        display: block;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .contact-person a:hover {
+        font-weight: 700;
     }
 
     /* STAY UP-TO-DATE SECTION */
@@ -186,10 +196,46 @@ export default {
     .socmed-content h2, p {
         margin: 0;
     }
+
+    .socmed a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .socmed a:hover {
+        font-weight: 700;
+    }
     /* Mobile Breakpoints */
 
-    /* @media screen and (max-width: 860px){
-        
-    } */
+    @media screen and (max-width: 1250px){
+       .contact-people {
+           padding: 20px 10vw 100px 10vw;
+       } 
+    }
 
+    @media screen and (max-width: 924px) {
+        .contact-people {
+           padding: 20px 5vw 100px 5vw;
+       } 
+    }
+
+    @media screen and (max-width: 320px) {
+        .contact-people {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-person {
+            width: 240px;
+            padding: 0 0 24px 0;
+        }
+        .contact-person:nth-child(2n-1){
+            padding: 0 0 24px 0;
+        }
+
+        .contact-people:nth-child(2n) {
+            padding: 0 0 24px 0;
+        }
+
+    }
 </style>
