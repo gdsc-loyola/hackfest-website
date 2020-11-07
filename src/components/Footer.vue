@@ -20,13 +20,14 @@
           </a>
         </div>
         <div class="ig">
-          <a href="https://www.instagram.com/dsc.loyola/" target="_blank" rel="noopener noreferrer">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" @mouseover="hoverIg" @mouseleave="notHoverIg">
+          <a href="https://www.instagram.com/dsc.loyola/" target="_blank" rel="noopener noreferrer"> 
+            <img src="./assets/in.png" @mouseover="hoverIg" @mouseleave="notHoverIg">
+            <!-- <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" @mouseover="hoverIg" @mouseleave="notHoverIg">
               <circle cx="24" cy="24" r="23" stroke="#2F80ED" stroke-width="2"/>
               <path d="M29 14H19C16.2386 14 14 16.2386 14 19V29C14 31.7614 16.2386 34 19 34H29C31.7614 34 34 31.7614 34 29V19C34 16.2386 31.7614 14 29 14Z" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M28 23.3701C28.1234 24.2023 27.9812 25.0523 27.5937 25.7991C27.2062 26.5459 26.5931 27.1515 25.8416 27.5297C25.0901 27.908 24.2384 28.0397 23.4077 27.906C22.5771 27.7723 21.8097 27.3801 21.2148 26.7852C20.6199 26.1903 20.2277 25.4229 20.094 24.5923C19.9604 23.7616 20.092 22.91 20.4703 22.1584C20.8485 21.4069 21.4541 20.7938 22.2009 20.4063C22.9477 20.0188 23.7977 19.8766 24.63 20.0001C25.4789 20.1259 26.2648 20.5215 26.8716 21.1284C27.4785 21.7352 27.8741 22.5211 28 23.3701Z" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M29.5 18.5H29.51" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            </svg> -->
           </a>
         </div>
         <div class="li">
@@ -90,19 +91,21 @@ export default {
       document.querySelector('.fb path').style.stroke ="#4285F4";
     },
     hoverIg: function () {
-      document.querySelector('.ig svg').style.fill = "#4285F4";
-      document.querySelectorAll('.ig svg path').style.stroke ="#FFFFFF";
+      // document.querySelector('.ig path').style.stroke ="#FFFFFF";
+      // document.querySelector('.ig circle').style.fill ="#4285F4";
+      document.querySelector('.ig img').src = "./assets/ig_filled.png";
     },
     notHoverIg: function () {
-      document.querySelector('.ig svg').style.fill = "none";
-      document.querySelectorAll('.ig svg path').style.stroke ="#4285F4";
+      document.querySelector('.ig circle').style.fill ="none";
+      document.querySelector('.ig path').style.stroke ="#4285F4";
+      document.querySelector('.ig img').src = "./assets/in.png";
     },
     hoverLi: function () {
-      document.querySelector('.li svg').style.fill = "#FFFFFF";
-      document.querySelectorAll('.li path').style.fill ="#FFFFFF";
+      document.querySelectorAll('.li svg').style.fill = "#FFFFFF";
+      document.querySelectorAll('.li path:first-child').style.fill ="#FFFFFF";
     },
     notHoverLi: function () {
-      document.querySelector('.li svg').style.fill = "#4285F4";
+      document.querySelectorAll('.li svg').style.fill = "#4285F4";
       // document.querySelectorAll('.li path').style.stroke ="#4285F4";
     }
   }
@@ -126,6 +129,10 @@ export default {
     margin-right: 10px;
     cursor: pointer;
   }
+  /* .footer-primary img {
+    height: 48px;
+    width: 48px;
+  } */
   .footer-primary div {
     display: inline;
   }
