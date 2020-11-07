@@ -4,17 +4,33 @@
     <div class="partners-wrapper">
       <div class="gold-partners">
         <h2>Gold</h2>
-        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png" alt="Accenture logo">
-        <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png" alt="SGV logo">
-        <img src="../assets/partners/Gold/WIM Logo (PNG).png" alt="When In Manila logo">
+        <a href="https://www.sgv.ph" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png" alt="SGV logo">
+        </a>
+        <a href="https://www.accenture.com/ph-en" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png" alt="Accenture logo">
+        </a>
+        <a href="https://www.wheninmanila.com" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Gold/WIM Logo (PNG).png" alt="When In Manila logo">
+        </a>
       </div>
       <div class="silver-partners">
         <h2>Silver</h2>
-        <img src="../assets/partners/Silver/Ambidextr_logo_positive.png" alt="Ambidextr logo"> 
-        <img src="../assets/partners/Silver/MVN PHOTOSTUDIO_logo222.png" alt="MVN Photostudio logo">
-        <img src="../assets/partners/Silver/NP_Logo_Horizontal_Colored.png" alt="NextPay logo">
-        <img src="../assets/partners/Silver/SparkUp_logo_navy.png" aalt="SparkUp logo">
-        <img src="../assets/partners/Silver/UXPH Logo Full Colour CMYK.png" alt="UXPH logo">
+        <a href="http://ambidextr.media/" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Silver/Ambidextr_logo_positive.png" alt="Ambidextr logo"> 
+        </a>
+        <a href="http://mvnphotostudio.com" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Silver/MVN PHOTOSTUDIO_logo222.png" alt="MVN Photostudio logo">
+        </a>
+        <a href="https://nextpay.world/" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Silver/NP_Logo_Horizontal_Colored.png" alt="NextPay logo">
+        </a>
+        <a href="https://www.bworldonline.com/sparkup/" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Silver/SparkUp_logo_navy.png" aalt="SparkUp logo">
+        </a>
+        <a href="https://www.uxph.org" target="blank" rel="noopener noreferrer">
+          <img src="../assets/partners/Silver/UXPH Logo Full Colour CMYK.png" alt="UXPH logo">
+        </a>
       </div>
     </div>
   </main>
@@ -50,6 +66,10 @@ export default {
     justify-content: center;
   }
 
+  a {
+    text-decoration: none;
+  }
+  
   .partners-wrapper {
     padding: 0 144px;
     display: flex;
