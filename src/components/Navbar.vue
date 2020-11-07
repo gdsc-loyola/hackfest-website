@@ -70,9 +70,26 @@
 
 <script>
 export default {
+  data: () => {
+    return {
+      expand: true
+    }
+  },
+
   methods: {
       handleToggleDrawer() {
         this.$refs.drawerLayout.toggle();
+        let dl = document.querySelector(".drawer-layout")
+        let cw = document.querySelector(".content-wrap")
+        if(this.expand) {
+          dl.style.height = "100vh"
+          cw.style.height = "100vh"
+          this.expand = false
+        } else {
+          dl.style.height = "72px"
+          cw.style.height = "72px"
+          this.expand = true
+        } 
       }
     }
 };
@@ -147,6 +164,7 @@ li > a > button:hover {
 
 .drawer-layout {
   position: fixed !important;
+  height: 76px;
 }
 
 .content {
