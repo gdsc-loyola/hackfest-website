@@ -34,7 +34,7 @@
             <div class="stay-up-to-date-socmed">
                 <div class="socmed">
                   <a href="https://www.facebook.com/dscloyola" target="blank" rel="noopener noreferrer">
-                    <img src="../components/assets/fb_filled.png">
+                    <img src="../assets/icons/fb_filled.png">
                     <div class="socmed-content">
                         <h2>Facebook</h2>
                         <p>@dscloyola</p>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="socmed">
                   <a href="https://www.linkedin.com/company/dsc-ateneo/" target="blank" rel="noopener noreferrer">
-                    <img src="../components/assets/linkedin_hover.png">
+                    <img src="../assets/icons/linkedin_hover.png">
                     <div class="socmed-content">
                         <h2>LinkedIn</h2>
                         <p>dsc-ateneo</p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="socmed">
                   <a href="https://www.instagram.com/dsc.loyola/" target="blank" rel="noopener noreferrer">
-                    <img src="../components/assets/ig_filled.png">
+                    <img src="../assets/icons/ig_filled.png">
                     <div class="socmed-content">
                         <h2>Instagram</h2>
                         <p>@dsc.ateneo</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="socmed">
                   <a href="https://twitter.com/DSCLoyola" target="blank" rel="noopener noreferrer">
-                    <img src="../components/assets/tw_hover.png">
+                    <img src="../assets/icons/tw_hover.png">
                     <div class="socmed-content">
                         <h2>Twitter</h2>
                         <p>@dsc.ateneo</p>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="socmed">
                   <a href="mailto:dsc.ateneo@gmail.com" target="blank" rel="noopener noreferrer">
-                    <img src="../components/assets/email_filled.png">
+                    <img src="../assets/icons/email_filled.png">
                     <div class="socmed-content">
                         <h2>Email</h2>
                         <p>dsc.ateneo@gmail.com</p>
@@ -91,6 +91,7 @@ export default {
 <style scoped>
     main {
         font-family: "Google Sans", sans-serif;
+        margin-top: 20px;
     }
     .contact-section {
         display: flex;
