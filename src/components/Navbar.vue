@@ -102,13 +102,19 @@ nav {
   z-index: 1000;
   background: #fff;
   padding: 16px 40px;
-  
 }
 
 #desktop-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 40px;
+  box-sizing: border-box;
 }
 
 ul {
