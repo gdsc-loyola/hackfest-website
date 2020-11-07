@@ -227,7 +227,18 @@ export default {
 
     @media screen and (max-width: 832px) {
         .contact-people {
-            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact-person:nth-child(2n-1) {
+            padding: 0;
+        }
+
+        .contact-person{
+            padding: 15px 0;
         }
         
         .stay-up-to-date-socmed {
@@ -245,10 +256,6 @@ export default {
     }
 
     @media screen and (max-width: 480px) {
-        .contact-people {
-            display: flex;
-            justify-content: center;
-        }
 
         .contact-person {
             width: 240px;
@@ -263,8 +270,10 @@ export default {
         }
 
         .stay-up-to-date-socmed {
+            width: 100%;
             justify-content: center;
             padding: 0;
+            margin: 0;
         }
 
         .socmed {
@@ -272,6 +281,8 @@ export default {
         }
 
         .socmed img {
+            width: 50px;
+            height: 50px;
             padding: 12px 8px 12px 16px;
         }
 
