@@ -68,6 +68,11 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 50px 0;
+  }
+
+  .silver-partners {
+    margin-bottom: 90px;
   }
 
   .gold-partners h2, .silver-partners h2 {
@@ -75,6 +80,9 @@ export default {
     display: flex;
     justify-content: center;
     padding: 0 0 24px 0;
+
+    font-size: 30px;
+    color: #4285F4;
   }
   .gold-partners img {
     height: 80px;
