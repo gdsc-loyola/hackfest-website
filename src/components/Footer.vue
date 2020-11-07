@@ -21,7 +21,7 @@
         </div>
         <div class="ig">
           <a href="https://www.instagram.com/dsc.loyola/" target="_blank" rel="noopener noreferrer"> 
-            <img src="./assets/in.png" @mouseover="hoverIg" @mouseleave="notHoverIg">
+            <img src="../assets/icons/in.png" @mouseover="hoverIg" @mouseleave="notHoverIg">
             <!-- <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" @mouseover="hoverIg" @mouseleave="notHoverIg">
               <circle cx="24" cy="24" r="23" stroke="#2F80ED" stroke-width="2"/>
               <path d="M29 14H19C16.2386 14 14 16.2386 14 19V29C14 31.7614 16.2386 34 19 34H29C31.7614 34 34 31.7614 34 29V19C34 16.2386 31.7614 14 29 14Z" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -32,7 +32,7 @@
         </div>
         <div class="li">
           <a href="https://www.linkedin.com/company/dsc-ateneo/" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/linkedin.png"  @mouseover="hoverLi" @mouseleave="notHoverLi">
+            <img src="../assets/icons/linkedin.png"  @mouseover="hoverLi" @mouseleave="notHoverLi">
             <!-- <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" @mouseover="hoverLi" @mouseleave="notHoverLi">
               <path d="M29.2613 17.9412C28.2465 17.9412 27.4951 18.1971 26.9068 18.5204C26.8125 18.1851 26.5027 17.9397 26.1375 18.013H21.671C21.2294 17.9397 20.8717 18.2974 21.0079 18.7614V35.2264C20.8717 35.6455 21.2294 36.0048 21.671 35.9748H26.1375C26.579 36.0048 26.9368 35.6455 26.9368 35.204L26.9353 25.2531C26.9338 25.2486 26.9173 24.7726 27.2182 24.4448C27.4592 24.1844 27.8738 24.0512 28.4471 24.0512C29.402 24.0512 29.8271 24.4418 29.9858 25.316V35.204C29.8286 35.6455 30.1864 36.0048 30.6279 35.9748H35.3354C35.777 36.0048 36.1347 35.6455 35.9761 35.204V24.9837C36.1332 19.7867 32.4316 17.9412 29.2613 17.9412ZM34.5346 34.478H31.4272V25.316C31.4272 23.5482 30.2852 22.4526 28.4486 22.4526C27.4098 22.4526 26.6015 22.7579 26.0447 23.3596C25.2708 24.1979 25.3307 25.2606 25.4968 25.4971V34.478H22.4703V19.5398H25.3382V20.0427C25.337 20.1925 25.3781 20.3396 25.4568 20.4671C25.5355 20.5946 25.6485 20.6973 25.783 20.7635C25.9174 20.8296 26.0678 20.8565 26.2168 20.841C26.3658 20.8255 26.5075 20.7682 26.6254 20.6759L26.835 20.5142C27.4412 20.0367 28.0684 19.5413 29.2628 19.5413C30.4992 19.5413 34.5361 19.9349 34.5361 24.9852V34.478H34.5346Z" fill="#4285F4"/>
               <path d="M16.516 10.4778C14.8365 10.4778 13.4714 11.8429 13.4714 13.5223C13.4714 15.2017 14.8365 16.5668 16.516 16.5668C18.1954 16.5668 19.5605 15.2017 19.5605 13.5223C19.5605 11.8429 18.1954 10.4778 16.516 10.4778ZM16.516 14.9682C15.7197 14.9682 15.07 14.3186 15.07 13.5223C15.07 12.726 15.7197 12.0764 16.516 12.0764C17.3123 12.0764 17.9619 12.726 17.9619 13.5223C17.9619 14.3186 17.3123 14.9682 16.516 14.9682Z" fill="#4285F4"/>
@@ -72,10 +72,10 @@
 </template>
 
 <script>
-import ig_filled from "../assets/ig_filled.png";
-import linkedin_hover from "../assets/linkedin_hover.png";
-import ig from "../assets/in.png";
-import linkedin from "../assets/linkedin.png";
+import ig_filled from "../assets/icons/ig_filled.png";
+import linkedin_hover from "../assets/icons/linkedin_hover.png";
+import ig from "../assets/icons/in.png";
+import linkedin from "../assets/icons/linkedin.png";
 
 export default {
   name: 'Footer',

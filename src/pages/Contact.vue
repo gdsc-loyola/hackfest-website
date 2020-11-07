@@ -91,6 +91,7 @@ export default {
 <style scoped>
     main {
         font-family: "Google Sans", sans-serif;
+        margin-top: 20px;
     }
     .contact-section {
         display: flex;
