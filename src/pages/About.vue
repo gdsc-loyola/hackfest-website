@@ -69,7 +69,7 @@
       <div>
          <h1>Ready to hack it?</h1>
          <div class="cta-button-wrapper">
-            <a href="bit.ly/RegisterHF2020Online" target="_blank" rel="noopener noreferrer"><button class="primary-cta">Register</button></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer"><button class="primary-cta">Register</button></a>
          </div>
         
       </div>

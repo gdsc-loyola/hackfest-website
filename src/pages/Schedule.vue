@@ -219,9 +219,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-main {
-  margin-top: 76px;
-}
 
 h1, h4, p {
   font-family: "Google Sans", sans-serif;
