@@ -33,39 +33,49 @@
             <h1>Stay up-to-date</h1>
             <div class="stay-up-to-date-socmed">
                 <div class="socmed">
+                  <a href="https://www.facebook.com/dscloyola" target="blank" rel="noopener noreferrer">
                     <img src="../components/assets/fb_filled.png">
                     <div class="socmed-content">
                         <h2>Facebook</h2>
-                        <a href="https://www.facebook.com/dscloyola" target="blank" rel="noopener noreferrer">@dscloyola</a>
+                        <p>@dscloyola</p>
                     </div>
+                  </a>
                 </div>
                 <div class="socmed">
+                  <a href="https://www.linkedin.com/company/dsc-ateneo/" target="blank" rel="noopener noreferrer">
                     <img src="../components/assets/linkedin_hover.png">
                     <div class="socmed-content">
                         <h2>LinkedIn</h2>
-                        <a href="https://www.linkedin.com/company/dsc-ateneo/" target="blank" rel="noopener noreferrer">dsc-ateneo</a>
+                        <p>dsc-ateneo</p>
                     </div>
+                  </a>
                 </div>
                 <div class="socmed">
+                  <a href="https://www.instagram.com/dsc.loyola/" target="blank" rel="noopener noreferrer">
                     <img src="../components/assets/ig_filled.png">
                     <div class="socmed-content">
                         <h2>Instagram</h2>
-                        <a href="https://www.instagram.com/dsc.loyola/" target="blank" rel="noopener noreferrer">@dsc.ateneo</a>
+                        <p>@dsc.ateneo</p>
                     </div>
+                  </a>
                 </div>
                 <div class="socmed">
+                  <a href="https://twitter.com/DSCLoyola" target="blank" rel="noopener noreferrer">
                     <img src="../components/assets/tw_hover.png">
                     <div class="socmed-content">
                         <h2>Twitter</h2>
-                        <a href="https://twitter.com/DSCLoyola" target="blank" rel="noopener noreferrer">@dsc.ateneo</a>
+                        <p>@dsc.ateneo</p>
                     </div>
+                  </a>
                 </div>
                 <div class="socmed">
+                  <a href="mailto:dsc.ateneo@gmail.com" target="blank" rel="noopener noreferrer">
                     <img src="../components/assets/email_filled.png">
                     <div class="socmed-content">
                         <h2>Email</h2>
-                        <a href="mailto:dsc.ateneo@gmail.com" target="blank" rel="noopener noreferrer">dsc.ateneo@gmail.com</a>
+                        <p>dsc.ateneo@gmail.com</p>
                     </div>
+                  </a>
                 </div>
             </div>
         </div>
@@ -166,11 +176,16 @@ export default {
 
     .socmed {
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         width: 552px;
         border: 1px solid #2F80ED;
         border-radius: 10px;
         margin-bottom: 28px;
+    }
+
+    .socmed a {
+      display: flex;
+      flex-direction: row;
     }
 
     .socmed:nth-child(2n) {
@@ -200,11 +215,17 @@ export default {
     .socmed a {
         text-decoration: none;
         color: #000000;
+        width: 552px;
     }
 
     .socmed a:hover {
-        font-weight: 700;
+        background-color: #4285F4;
+        border-radius: 10px;
+        margin: 0;
+        border-color: #000000;
+        color: #FFFFFF;
     }
+
     /* Mobile Breakpoints */
 
     @media screen and (max-width: 1400px) {
