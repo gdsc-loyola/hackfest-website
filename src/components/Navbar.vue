@@ -39,7 +39,7 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2937 12.2937C12.2006 12.3866 12.1268 12.4969 12.0763 12.6184C12.0259 12.7399 12 12.8701 12 13.0016C12 13.1331 12.0259 13.2633 12.0763 13.3848C12.1268 13.5063 12.2006 13.6166 12.2937 13.7095L26.2911 27.7068C26.4788 27.8945 26.7334 28 26.9989 28C27.2644 28 27.5191 27.8945 27.7068 27.7068C27.8945 27.5191 28 27.2644 28 26.9989C28 26.7334 27.8945 26.4788 27.7068 26.2911L13.7095 12.2937C13.6166 12.2006 13.5063 12.1268 13.3848 12.0763C13.2633 12.0259 13.1331 12 13.0016 12C12.8701 12 12.7399 12.0259 12.6184 12.0763C12.4969 12.1268 12.3866 12.2006 12.2937 12.2937V12.2937Z" fill="white"/>
             </svg>
             <div class="drawer-logo">
-              <router-link to="/">
+              <router-link to="/" v-on:click.native="handleToggleDrawer">
                 <img
                   alt="Developer Student Clubs Loyola logo"
                   src="@/assets/icons/hackfest_icon.svg"
@@ -47,13 +47,13 @@
               </router-link>
             </div>
             <ul>
-                <router-link tag="li" to="/about">About</router-link>
-                <router-link tag="li" to="/schedule">Schedule</router-link>
-                <router-link tag="li" to="/mechanics">Mechanics</router-link>
-                <router-link tag="li" to="/partners">Partners</router-link>
-                <router-link tag="li" to="/faqs">FAQs</router-link>
-                <router-link tag="li" to="/contact">Contact</router-link>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer"><button>Register</button></a></li>
+                <router-link tag="li" to="/about" v-on:click.native="handleToggleDrawer">About</router-link>
+                <router-link tag="li" to="/schedule" v-on:click.native="handleToggleDrawer">Schedule</router-link>
+                <router-link tag="li" to="/mechanics" v-on:click.native="handleToggleDrawer">Mechanics</router-link>
+                <router-link tag="li" to="/partners" v-on:click.native="handleToggleDrawer">Partners</router-link>
+                <router-link tag="li" to="/faqs" v-on:click.native="handleToggleDrawer">FAQs</router-link>
+                <router-link tag="li" to="/contact" v-on:click.native="handleToggleDrawer">Contact</router-link>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer" @click="handleToggleDrawer"><button>Register</button></a></li>
             </ul>
           </div>
           <div class="content" slot="content">
