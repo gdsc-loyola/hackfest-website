@@ -55,14 +55,7 @@
               <h4 class="drop-time">4:50 - 6:35 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            "TBD"
           </p>
         </DropCard>
 
@@ -78,14 +71,13 @@
               <h4 class="drop-time">6:35 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            In this session, you will learn the essentials of creating 
+            a cohesive marketing strategy for your product or service. 
+            The objective is to give you clarity on how best to 
+            communicate your solution through the best channel for 
+            your target market. Topics include persona creations, 
+            insighting, content and distribution strategies, and the 
+            basics of digital marketing.
           </p>
         </DropCard>
 
@@ -101,14 +93,9 @@
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            Through a fun game and a little show-and-tell, designers 
+            will get bite-sized tips & tricks to improve their user 
+            interface.
           </p>
         </DropCard>
 
@@ -124,14 +111,7 @@
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            "TBD"
           </p>
         </DropCard>
 
@@ -147,14 +127,11 @@
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            Web development is the process of building websites and 
+            applications for the Internet. In this talk we will 
+            take at the different areas of focus in Web development.
+            We will start with discussing the fundamentals of each area 
+            and end with a workshop where we will build our first website.
           </p>
         </DropCard>
 
@@ -170,14 +147,7 @@
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            "TBD"
           </p>
         </DropCard>
 
@@ -194,14 +164,12 @@
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            In this session, you will learn the essentials 
-            of creating a cohesive marketing strategy for 
-            your product or service. The objective is to 
-            give you clarity on how best to communicate 
-            your solution through the best channel for 
-            your target market. Topics include persona 
-            creations, insighting, content and distribution 
-            strategies, and the basics of digital marketing.
+            Firebase is a developer platform, powered by Google, with a 
+            diverse set of tools and services such as hosting, database 
+            management and storage as well as authentication and analytics. 
+            In this workshop, you’ll learn how to utilize Firebase for both 
+            your web and mobile application from scratch with no experience 
+            needed.
           </p>
         </DropCard>
 
