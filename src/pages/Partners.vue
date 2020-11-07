@@ -1,11 +1,12 @@
 <template>
   <main>
     <h1>Partners</h1>
+    <p>Brought to you by:</p>
     <div class="partners-wrapper">
       <div class="gold-partners">
         <h2>Gold</h2>
-        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png" alt="Accenture logo">
         <img src="../assets/partners/Gold/SGVlogo_bbww_2015.png" alt="SGV logo">
+        <img src="../assets/partners/Gold/Accenture logo_Masterbrand.png" alt="Accenture logo">
         <img src="../assets/partners/Gold/WIM Logo (PNG).png" alt="When In Manila logo">
       </div>
       <div class="silver-partners">
@@ -48,6 +49,15 @@ export default {
   main h1 {
     display: flex;
     justify-content: center;
+    background-color: #4285F4;
+    margin: 0;
+    padding: 1em 0;
+    color: #FFFFFF;
+  }
+
+  main p {
+    display: flex;
+    justify-content: center;
   }
 
   .partners-wrapper {
@@ -61,6 +71,7 @@ export default {
   .partners-wrapper img {
     display: flex;
     margin: 0 32px 32px 32px;
+
   }
 
   .gold-partners, .silver-partners {
@@ -86,10 +97,12 @@ export default {
   }
   .gold-partners img {
     height: 80px;
+    object-fit: contain;
   }
 
   .silver-partners img {
     height: 28px;
+    object-fit: contain;
   }
 
   @media screen and (max-width: 600px) {

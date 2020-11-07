@@ -102,13 +102,14 @@ nav {
   z-index: 1000;
   background: #fff;
   padding: 16px 40px;
-  
 }
 
 #desktop-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background: #fff;
 }
 
 ul {

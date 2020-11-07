@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="footer-button-wrapper">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer"><button>Regiser</button></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer"><button>Register</button></a>
         </div>
       </div>
       
