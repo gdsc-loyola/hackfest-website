@@ -55,7 +55,7 @@
               <h4 class="drop-time">4:50 - 6:35 PM</h4>
           </div>
           <p slot="details">
-            "TBD"
+            Learn how to get your message across by exploring the facets of perfect hooks, seller-customer relationships, and problem-solving. 
           </p>
         </DropCard>
         <DropCard>
@@ -125,7 +125,7 @@
               <h4 class="drop-time">7:35 - 8:55 PM</h4>
           </div>
           <p slot="details">
-            "TBD"
+            The topic of crafting an elevator pitch will revolve around techniques, structure, the art of persuasion, and profiling. Based on his experience, JP Bayang will discuss attitude towards pitching, rebuttal, rejection, and the recommended steps to make your 30-second product elevator pitch worthwhile for your desired listener from preparation to exit. In this session, you will also learn from cases of successful and unsuccessful elevator pitches done by founders that we know.
           </p>
         </DropCard>
         <DropCard>
