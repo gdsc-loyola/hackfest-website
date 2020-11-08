@@ -71,6 +71,24 @@
             The prompt will be provided before the 48-hour hackathon proper. (November 27, 2020)
           </p>
       </DropCard>
+      <DropCard>
+          <h4 class="drop-day" slot="header">What will we submit during the elimination round?</h4>
+          <p slot="details">
+            A five-minute video presentation on your product and a GitHub link containing your code. Further details will soon be posted in the official Facebook group and Discord server.          
+          </p>
+      </DropCard>
+      <DropCard>
+          <h4 class="drop-day" slot="header">How can I join the Facebook group and Discord server?</h4>
+          <p slot="details">
+            Successful registrants will receive an email containing the links to the Facebook group and Discord server. Emails will be sent starting November 7, 2020.  
+          </p>
+      </DropCard>
+      <DropCard>
+          <h4 class="drop-day" slot="header">Can I be part of multiple teams?</h4>
+          <p slot="details">
+            No. Being part of more than one team will result in immediate and automatic disqualification.          
+          </p>
+      </DropCard>
     </section>
   </main>
 </template>
