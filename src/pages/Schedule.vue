@@ -49,7 +49,7 @@
                 <h4 class="drop-day">Day 1</h4>
                 <div class="drop-title-speaker">
                   <h4>Product Pitching</h4>
-                  <p>Richard Cruz</p>
+                  <p>Matt Tan, Chief Operations Officer of Exora Technologies Inc.</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 6:35 PM</h4>
@@ -58,14 +58,13 @@
             "TBD"
           </p>
         </DropCard>
-
         <DropCard>
           <div class="drop-header-details" slot="header">
               <div class="drop-header-details-primary">
                 <h4 class="drop-day">Day 1</h4>
                 <div class="drop-title-speaker">
                   <h4>Marketing</h4>
-                  <p>Miggy Azurin</p>
+                  <p>Miggy Azurin, Managing Partner of Huskee Digital</p>
                 </div>
               </div>
               <h4 class="drop-time">6:35 - 8:00 PM</h4>
@@ -87,10 +86,10 @@
                 <h4 class="drop-day">Day 2</h4>
                 <div class="drop-title-speaker">
                   <h4>Intro to UX/UI Design</h4>
-                  <p>Miramark Diaz</p>
+                  <p>Francis Alturas, co-founder and Chief Design Officer of Abstract Digital</p>
                 </div>
               </div>
-              <h4 class="drop-time">4:50 - 8:00 PM</h4>
+              <h4 class="drop-time">4:50 - 6:25 PM</h4>
           </div>
           <p slot="details">
             Through a fun game and a little show-and-tell, designers 
@@ -104,24 +103,38 @@
               <div class="drop-header-details-primary">
                 <h4 class="drop-day">Day 3</h4>
                 <div class="drop-title-speaker">
-                  <h4>Figma Wireframing</h4>
-                  <p>Anjo Cerdena, Friends of Figma</p>
+                  <h4>Prototyping with Figma</h4>
+                  <p>Polly Baterna, UX Researcher at Kumu and Ceej Atienza, Product Manager at TAYO</p>
                 </div>
               </div>
-              <h4 class="drop-time">4:50 - 8:00 PM</h4>
+              <h4 class="drop-time">4:50 - 7:35 PM</h4>
+          </div>
+          <p slot="details">
+            Design is at the core of most apps and websites we see. In this workshop, you will learn how to create a prototype for your idea — from creating shapes, to adding text, all the way to designing the visuals and interactions of your different screens using Figma, a collaborative prototyping tool.
+          </p>
+        </DropCard>
+        <DropCard>
+          <div class="drop-header-details" slot="header">
+              <div class="drop-header-details-primary">
+                <h4 class="drop-day">Day 3</h4>
+                <div class="drop-title-speaker">
+                  <h4>Product Pitching</h4>
+                  <p>JP Bayang, Founder of Bayay Innovation Hub</p>
+                </div>
+              </div>
+              <h4 class="drop-time">7:35 - 8:55 PM</h4>
           </div>
           <p slot="details">
             "TBD"
           </p>
         </DropCard>
-
         <DropCard>
           <div class="drop-header-details" slot="header">
               <div class="drop-header-details-primary">
                 <h4 class="drop-day">Day 4</h4>
                 <div class="drop-title-speaker">
                   <h4>Intro to WebDev</h4>
-                  <p>Arnelle Balane</p>
+                  <p>Arnelle Balane, Google Develoepr Expert in Web Technologies</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
@@ -141,13 +154,13 @@
                 <h4 class="drop-day">Day 5</h4>
                 <div class="drop-title-speaker">
                   <h4>Flutter</h4>
-                  <p>Flutter PH</p>
+                  <p>Joni Sindo and Joshua de Guzman, Flutter Philippines Community Organizers</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
           </div>
           <p slot="details">
-            "TBD"
+            This workshop aims to help the participants get a good understanding of how state management works with Flutter without having to deal with so much complexity.
           </p>
         </DropCard>
 
@@ -158,7 +171,7 @@
                 <h4 class="drop-day">Day 6</h4>
                 <div class="drop-title-speaker">
                   <h4>Intro to Firebase</h4>
-                  <p>Harvey Sison</p>
+                  <p>Harvey Sison, Full Stack UX Engineer</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
