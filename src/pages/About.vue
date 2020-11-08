@@ -6,8 +6,8 @@
         <img src="@/assets/images/hackfest_logo.svg" alt="hackfest logo" class="hackfest_logo">
         <h2>A 10-day event filled with workshops, webinars, and a 48-hour hackathon.</h2>
         <div class="landing_button_wrapper">
-          <a href="bit.ly/RegisterHF2020Online" target="_blank" rel="noopener noreferrer"><button class="primary-cta">Register</button></a>
-          <router-link tag="button" to="/about" class="secondary-cta">Learn More</router-link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGlLO3Ys313ia-h3v3zg03VblE-HdlvAsy_e2eDdzp4DA5w/viewform" target="_blank" rel="noopener noreferrer"><button class="primary-cta">Register</button></a>
+          <router-link tag="button" to="/about#hackfest" class="secondary-cta">Learn More</router-link>
         </div>
         
       </div>
