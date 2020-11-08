@@ -104,7 +104,7 @@
                 <h4 class="drop-day">Day 3</h4>
                 <div class="drop-title-speaker">
                   <h4>Prototyping with Figma</h4>
-                  <p>Polly Baterna, UX Researcher at Kumu and Ceej Atienza, Product Manager at TAYO</p>
+                  <p>Polly Baterna, UX Researcher at Kumu & Ceej Atienza, Product Manager at TAYO</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 7:35 PM</h4>

@@ -99,7 +99,7 @@ export default {
 nav {
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 99999999;
   background: #fff;
   padding: 16px 40px;
 }
@@ -115,6 +115,7 @@ nav {
   right: 0;
   padding: 16px 40px;
   box-sizing: border-box;
+  z-index: 99999999;
 }
 
 ul {
