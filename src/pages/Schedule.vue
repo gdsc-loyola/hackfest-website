@@ -134,7 +134,7 @@
                 <h4 class="drop-day">Day 4</h4>
                 <div class="drop-title-speaker">
                   <h4>Intro to WebDev</h4>
-                  <p>Arnelle Balane, Google Develoepr Expert in Web Technologies</p>
+                  <p>Arnelle Balane, Google Developer Expert in Web Technologies</p>
                 </div>
               </div>
               <h4 class="drop-time">4:50 - 8:00 PM</h4>
